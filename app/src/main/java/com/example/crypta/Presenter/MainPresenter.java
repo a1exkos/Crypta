@@ -1,11 +1,11 @@
-package com.example.crypto2.Presenter;
+package com.example.crypta.Presenter;
 
-import com.example.crypto2.Activity.MainActivity;
-import com.example.crypto2.Helper.Internet;
-import com.example.crypto2.Model.DataBase.CoinNames;
-import com.example.crypto2.Model.DataBase.ShPrefManager;
-import com.example.crypto2.Model.Items.Coin;
-import com.example.crypto2.Model.MainModel;
+import com.example.crypta.Activity.MainActivity;
+import com.example.crypta.Helper.Internet;
+import com.example.crypta.Model.DataBase.CoinNames;
+import com.example.crypta.Model.DataBase.ShPrefManager;
+import com.example.crypta.Model.Items.Coin;
+import com.example.crypta.Model.MainModel;
 
 import java.util.ArrayList;
 
