@@ -22,11 +22,12 @@ import lombok.AllArgsConstructor;
 import okhttp3.ResponseBody;
 
 @AllArgsConstructor
+public
 class MainModel {
 
     private MainPresenter presenter;
 
-    Disposable parse(String currency, String coins_name){
+    public Disposable parse(String currency, String coins_name){
         return UtilsApi.getAllRequests()
                 .getAllCoin(currency, coins_name)
                 .observeOn(AndroidSchedulers.mainThread())

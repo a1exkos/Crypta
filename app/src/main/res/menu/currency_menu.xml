@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/currency_CNY"
+        android:title="CNY"/>
+
+    <item android:id="@+id/currency_JPY"
+        android:title="JPY"/>
+
+    <item android:id="@+id/currency_GBP"
+        android:title="GBP"/>
+
+    <item android:id="@+id/currency_EUR"
+        android:title="EUR"/>
+
+    <item android:id="@+id/currency_USD"
+        android:title="USD"/>
+
+    <item android:id="@+id/currency_UAH"
+        android:title="UAH"/>
+
+    <item android:id="@+id/currency_RUB"
+        android:title="RUB"/>
+
+</menu>
